@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/sportsFragment"
+    android:icon="@drawable/ic_sports"
+    android:title="@string/sports"/>
+    <item
+        android:id="@+id/inPlayFragment"
+        android:icon="@drawable/ic_in_play"
+        android:title="@string/in_play"/>
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/multiModeFragment"
+        android:icon="@drawable/ic_multi_mode"
+        android:title="@string/multi_mode"/>
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_accounts"
+        android:title="@string/account"/>
+</menu>

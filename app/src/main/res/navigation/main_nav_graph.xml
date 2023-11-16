@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/inPlayFragment">
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.myapplication.home.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/multiModeFragment"
+        android:name="com.example.myapplication.home.MultiModeFragment"
+        android:label="fragment_multi_mode"
+        tools:layout="@layout/fragment_multi_mode" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/inPlayFragment"
+        android:name="com.example.myapplication.home.InPlayFragment"
+        android:label="@string/in_play"
+        tools:layout="@layout/fragment_in_play" />
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="com.example.myapplication.home.SportsFragment"
+        android:label="fragment_sports"
+        tools:layout="@layout/fragment_sports" />
+
+</navigation>
